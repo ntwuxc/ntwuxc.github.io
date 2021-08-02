@@ -19,6 +19,9 @@
     <title>Hello World | 陆洪春晓</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
+    <!-- 球形标签 -->
+    <link rel="stylesheet" href="../source/css/tag-bubble.css">
+
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
     <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
@@ -76,11 +79,43 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/categories" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories/slideck">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>slideck</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/termux">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>termux</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/categories/python">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>python</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -178,12 +213,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories/slideck " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>slideck</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/termux " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>termux</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories/python " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>python</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -366,12 +435,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/hexo/" class="post-category">
+                                hexo
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -447,7 +529,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -514,11 +600,23 @@
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            春晓
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/slideck/" class="post-category">
+                                    slideck
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/slid/">
+                        <span class="chip bg-color">slid</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -551,13 +649,25 @@
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            wuxiaochun
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
